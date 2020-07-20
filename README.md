@@ -1,2 +1,2 @@
 # EchoBot
-VK API Bot, that is repeating your messages
+VK API Bot, that quotes your messages
