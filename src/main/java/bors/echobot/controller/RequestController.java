@@ -20,6 +20,6 @@ public class RequestController {
     public String getVisitorsHistory(@RequestBody VkEvent event) {
         String response = eventService.prepareResponse(event);
         System.out.println(response);
-        return response;
+        return "ok";
     }
 }

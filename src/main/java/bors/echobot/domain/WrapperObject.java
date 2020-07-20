@@ -9,9 +9,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @ToString
 @Component
-public class VkEvent {
-    String type;
-    WrapperObject object;
-    Integer group_id;
-    String secret;
+public class WrapperObject {
+    VkMessage message;
 }
+
