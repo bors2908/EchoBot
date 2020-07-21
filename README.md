@@ -7,7 +7,9 @@ Steps to launch:
 3. Register new VK community
 4. Get following parameters from group's settings:
 	-group-id - community id
+
   	-confirmation-token - token from Callback API settings to approve endpoint on VK's side
+
   	-access-token - Token to access VK API, register it in API settings.
 5. Fill yml's properties
 6. Install ngrok and launch it. Register tunnel to your port and copy it's URL.
