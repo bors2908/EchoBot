@@ -15,3 +15,6 @@ Steps to launch:
 8. Launch App via EchobotApplication and validate URL.
 
 
+If you need an easy demo, you can try this bot at https://vk.com/the_echo_bot
+If the service is down, contact me on https://vk.com/id8136252
+
