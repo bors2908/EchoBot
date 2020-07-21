@@ -18,12 +18,7 @@ public class VkMessage {
     Integer random_id;
     String ref;
     String ref_source;
-    Object[] attachments;
     Boolean important;
-    Object geo;
     String payload;
-    Object keyboard;
-    Object[] fwd_messages;
-    Object reply_message;
-    Object action;
+
 }

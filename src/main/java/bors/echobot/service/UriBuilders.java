@@ -26,7 +26,6 @@ public class UriBuilders {
                 .append("&access_token=")
                 .append(ACCESS_TOKEN)
                 .append("&v=5.120");
-        System.out.println(uribuilder.toString());
         return uribuilder.toString();
     }
 

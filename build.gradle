@@ -18,8 +18,13 @@ repositories {
 	mavenCentral()
 }
 
+configurations {
+	implementation.exclude module: 'spring-boot-starter-tomcat'
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-jetty'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
