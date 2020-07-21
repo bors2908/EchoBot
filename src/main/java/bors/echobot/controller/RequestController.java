@@ -18,8 +18,7 @@ public class RequestController {
 
     @PostMapping("/send")
     public String getVisitorsHistory(@RequestBody VkEvent event) {
-        String response = eventService.prepareResponse(event);
-        System.out.println(response);
+        eventService.respond(event);
         return "ok";
     }
 }
