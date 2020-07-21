@@ -9,9 +9,10 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @ToString
 @Component
-public class VkResponse {
-    String type;
-    Object object;
-    Long group_id;
-    String secret;
+public class VkNameResponse {
+    Integer id;
+    String first_name;
+    String last_name;
+    Boolean is_closed;
+    Boolean can_access_closed;
 }

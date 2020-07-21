@@ -3,6 +3,8 @@ package bors.echobot.domain;
 import lombok.*;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -11,5 +13,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class WrapperObject {
     VkMessage message;
+    List<VkNameResponse> response;
 }
 
