@@ -4,6 +4,6 @@ import bors.echobot.domain.VkEvent;
 
 public interface EventService {
 
-    public void respond(VkEvent event);
+    public String respond(VkEvent event);
 
 }

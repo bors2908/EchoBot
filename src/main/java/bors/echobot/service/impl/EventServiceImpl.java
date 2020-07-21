@@ -33,16 +33,16 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public void respond(VkEvent event) {
+    public String respond(VkEvent event) {
         String type = event.getType();
         switch (type) {
             case CONFIRMATION:
                 if (event.getGroup_id().equals(GROUP_ID)) {
-                    return;
+                    return CONFIRM_TOKEN;
                 } else throw new RuntimeException("Wrong Group_ID");
             case NEW_MESSAGE:
                 sendMessage(event);
-                return;
+                return "ok";
             default:
                 throw new RuntimeException("Unsupported event");
         }
