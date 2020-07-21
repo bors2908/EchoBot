@@ -6,6 +6,7 @@ Steps to launch:
 2. Select port in YML.
 3. Register new VK community
 4. Get following parameters from group's settings:
+
 	-group-id - community id
 
   	-confirmation-token - token from Callback API settings to approve endpoint on VK's side
